@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - Steam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="assets/logo.png" alt="Steam Logo">
+                <span class="logo-text">Steam</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Store</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="login-wrapper">
+            <div class="login-container">
+                <h1 class="login-header">Sign In</h1>
+                
+                <div class="login-grid">
+                    <div class="form-column">
+                        <form id="login-form" action="#" onsubmit="event.preventDefault(); alert('Ini adalah simulasi edukasi. Data tidak dikirim ke mana pun.');">
+                            <div class="form-group">
+                                <label for="username">Sign in with account name</label>
+                                <input type="text" id="username" name="username" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" id="password" name="password" required>
+                            </div>
+
+                            <div class="remember-me">
+                                <input type="checkbox" id="remember" name="remember">
+                                <label for="remember">Remember me</label>
+                            </div>
+
+                            <button type="submit" class="sign-in-btn">Sign In</button>
+                            <a href="#" class="help-link">Help, I can't sign in</a>
+                        </form>
+                    </div>
+
+                    <div class="qr-column">
+                        <h3>Or Sign In with QR</h3>
+                        <div class="qr-box">
+                            <img src="assets/qr-code.png" alt="Login QR Code">
+                        </div>
+                        <p class="qr-text">Use the <strong>Steam Mobile App</strong> to sign in via QR Code</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-section">
+                <h4>New to Steam?</h4>
+                <a href="#" class="create-btn">Create an account</a>
+                <p class="qr-text" style="margin-top: 10px;">It's free and easy. Discover thousands of games to play with millions of new friends.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="safety-footer">
+        <p><strong>Peringatan Keamanan:</strong> Halaman ini adalah simulasi edukasi keamanan cyber, perhatikan URL sebelum memasukan data sensitif.</p>
+    </footer>
+
+    <script>
+        // Smooth hover effects for the background grid could be added here
+        console.log("Simulasi Edukasi Keamanan Siber Aktif");
+    </script>
+</body>
+</html>
